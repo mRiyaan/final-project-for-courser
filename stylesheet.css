@@ -7,27 +7,31 @@ body {
     
   }
 
-  .container {
-    height: 70px;
- display: flex;
- background-color: rgb(31, 31, 31);
- color:rgb(225, 241, 255);
- flex-direction: row;
- justify-content: space-between;
-  }
+.container {
+  display: flex;
+  background-color: rgb(20, 20, 20);
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  
+  
+}
+.container a{
+  color: white;
+  text-decoration: none;
 
-  a { 
-    text-decoration: none;
-  }
-  #navlist{
-    display: flex;
-    list-style-type: none;
-    justify-self:center;
-  }
-  #navlist a{
-    color: floralwhite;
-    font-size: large;
-  }
-  .container ul li{
-    display: inline;
-  }
+}
+.container li{
+  list-style-type: none;
+  display: inline;
+  
+}
+nav{
+  position: fixed;
+  width: 100vw;
+  top:0;
+}
+main{
+  position: relative;
+  top:100px;
+}
