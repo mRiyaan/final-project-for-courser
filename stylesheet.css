@@ -13,16 +13,13 @@ body {
  background-color: rgb(31, 31, 31);
  color:rgb(225, 241, 255);
  flex-direction: row;
+ justify-content: space-between;
   }
 
   a { 
     text-decoration: none;
   }
-  #navlist{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-  }
+ 
   #navlist a{
     color: floralwhite;
     font-size: large;
