@@ -7,10 +7,11 @@ body {
   
   }
 
-  .navBar {
+  .container {
  display: flex;
  background-color: rgb(31, 31, 31);
  color:rgb(225, 241, 255);
+
   }
 
   a { 
