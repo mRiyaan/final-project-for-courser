@@ -28,3 +28,6 @@ body {
     color: floralwhite;
     font-size: large;
   }
+  .container ul li{
+    display: inline;
+  }
