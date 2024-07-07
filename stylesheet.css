@@ -12,11 +12,10 @@ body {
  display: flex;
  background-color: rgb(31, 31, 31);
  color:rgb(225, 241, 255);
- flex-direction: row;
-
+ flex-direction: ;
   }
 
-  .container >a { 
+  a { 
     text-decoration: none;
   }
   #navlist{
