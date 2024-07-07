@@ -6,8 +6,16 @@ body {
     list-style-type: square;
   
   }
-  #nav_bar {
-    display: flex;
+
+  .navBar {
+ display: flex;
  background-color: rgb(31, 31, 31);
+ color:rgb(225, 241, 255);
   }
-  a{ text-decoration: none;}
+
+  a { 
+    text-decoration: none;
+  }
+  #homeGall {
+    display: flex;
+  }
