@@ -13,6 +13,7 @@ body {
  background-color: rgb(31, 31, 31);
  color:rgb(225, 241, 255);
  flex-direction: row;
+ justify-content: space-between;
   }
 
   a { 
@@ -20,4 +21,8 @@ body {
   }
   #navlist{
     list-style-type: none;
+    color: white;
+  }
+  #navlist a{
+    color: floralwhite;
   }
