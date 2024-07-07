@@ -20,6 +20,7 @@ body {
     text-decoration: none;
   }
   #navlist{
+    display: inline-flex;
     list-style-type: none;
     color: white;
   }
