@@ -19,3 +19,6 @@ body {
   #homeGall {
     display: flex;
   }
+  #galHeading {
+    display: block;
+  }
