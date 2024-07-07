@@ -19,7 +19,11 @@ body {
   a { 
     text-decoration: none;
   }
- 
+  #navlist{
+    display: flex;
+    list-style-type: none;
+    justify-self:center;
+  }
   #navlist a{
     color: floralwhite;
     font-size: large;
