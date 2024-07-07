@@ -4,17 +4,21 @@ body {
   
   ul {
     list-style-type: square;
-  
+    
   }
 
   .container {
+    height: 70px;
  display: flex;
  background-color: rgb(31, 31, 31);
  color:rgb(225, 241, 255);
+ flex-direction: row;
 
   }
 
-  a { 
+  .container >a { 
     text-decoration: none;
   }
-  
+  #navlist{
+    list-style-type: none;
+  }
