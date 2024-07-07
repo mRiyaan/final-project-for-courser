@@ -28,10 +28,37 @@ body {
 }
 nav{
   position: fixed;
-  width: 100vw;
+  width: 100%;
   top:0;
+  z-index: 2;
 }
 main{
   position: relative;
-  top:100px;
+  top: 70px;
+}
+.mainGallery{
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+  z-index:-2;
+}
+.mainGallery img{
+  height: 350px;
+  width: 440px;
+}
+a{
+  text-decoration: none;
+  
+}
+footer {
+  /* Footer styles */
+  background-color: #1c1d5a;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+footer a{
+  color: #fff;
 }
