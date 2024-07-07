@@ -62,7 +62,8 @@ footer {
 footer a{
   color: #fff;
 }
-.mainGallery{
+.mainGallery img{
   border:2px solid black;
-  border-radius: 4px;
+  border-radius: 6px;
+  margin-bottom: 5px;
 }
