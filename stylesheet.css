@@ -19,7 +19,7 @@ body {
     text-decoration: none;
   }
   #navlist{
-    display: inline-flex;
+    display: flex;
     list-style-type: none;
     justify-content: space-between;
   }
