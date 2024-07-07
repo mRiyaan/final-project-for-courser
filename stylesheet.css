@@ -17,9 +17,4 @@ body {
   a { 
     text-decoration: none;
   }
-  #homeGall {
-    display: flex;
-  }
-  #galHeading {
-    display: block;
-  }
+  
