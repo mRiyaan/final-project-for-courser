@@ -3,7 +3,7 @@
 }
     
 body {
-    background-color: #e1eeff;
+    background-color: linear-gradient(90deg, rgb(156, 202, 240) 0%, rgb(139, 102, 241) 100%);
   }
   
   ul {
